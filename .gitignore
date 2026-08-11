@@ -1,0 +1,34 @@
+#git actions cache
+/.github/.cache
+
+#docker cache
+docker/logs/
+docker/minio/
+docker/plugins/
+docker/postgres/
+
+# dbt generated files
+**/target/
+**/dbt_packages/
+**/logs/
+**/.dbt/
+
+# DBT cache
+banking_dbt/.dbt/
+banking_dbt/analyses/
+banking_dbt/logs/
+banking_dbt/macros/
+banking_dbt/seeds/
+banking_dbt/target/
+banking_dbt/tests/
+
+.env
+.env.minio
+.env.debezium
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+docker-compose.override.yml
+logs/
